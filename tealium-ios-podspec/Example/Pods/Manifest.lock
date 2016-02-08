@@ -1,0 +1,14 @@
+PODS:
+  - TealiumIOS (5.0.0)
+
+DEPENDENCIES:
+  - TealiumIOS (from `../TealiumIOS.podspec`)
+
+EXTERNAL SOURCES:
+  TealiumIOS:
+    :path: ../TealiumIOS.podspec
+
+SPEC CHECKSUMS:
+  TealiumIOS: 05c8baa8660df8ac92242cdde376b680bcf6e71f
+
+COCOAPODS: 0.39.0

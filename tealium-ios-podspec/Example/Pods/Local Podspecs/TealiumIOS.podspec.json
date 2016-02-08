@@ -1,0 +1,29 @@
+{
+  "name": "TealiumIOS",
+  "version": "5.0.0",
+  "summary": "Framework for adding Tealium services to an iOS application.",
+  "homepage": "https://github.com/tealium/tealium-ios",
+  "license": {
+    "type": "Commercial",
+    "file": "LICENSE.txt"
+  },
+  "authors": {
+    "jalakoo": "jalakoo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tealium/tealium-ios.git",
+    "commit": "aa636547baf91de1c6f387c369190f77ed2d0f62",
+    "tag": "v5.0.0"
+  },
+  "platforms": {
+    "ios": "8.1"
+  },
+  "requires_arc": true,
+  "social_media_url": "https://twitter.com/tealium",
+  "source_files": "TealiumIOS.framework/Headers/*.{h}",
+  "public_header_files": "TealiumIOS.framework/Headers/*.{h}",
+  "frameworks": [
+    "Foundation",
+    "SystemConfiguration"
+  ]
+}

@@ -1,0 +1,14 @@
+PODS:
+  - Tealium-Full (0.1.0)
+
+DEPENDENCIES:
+  - Tealium-Full (from `../`)
+
+EXTERNAL SOURCES:
+  Tealium-Full:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Tealium-Full: 3d75fd29d975249ec577f04026ed54df0c43990f
+
+COCOAPODS: 0.39.0

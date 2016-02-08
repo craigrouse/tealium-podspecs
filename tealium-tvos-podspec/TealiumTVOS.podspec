@@ -9,8 +9,9 @@
 Pod::Spec.new do |s|
     s.author            = { "jalakoo" => "jalakoo@gmail.com" }
     s.homepage          = "https://github.com/tealium/tealium-tvos"
+    s.frameworks        = 'SystemConfiguration'
     s.license           = { :type => "Commercial", :file => "LICENSE.txt" }
-      s.name            = "TealiumTVOS"
+    s.name            = "TealiumTVOS"
     s.requires_arc = true
     s.social_media_url  = "https://twitter.com/tealium"
     s.source            = { :git => "https://github.com/tealium/tealium-tvos.git", :commit => '67489a8bbcb9803f03b2b234b3dbee4bea861207',:tag => "v5.0.0" }

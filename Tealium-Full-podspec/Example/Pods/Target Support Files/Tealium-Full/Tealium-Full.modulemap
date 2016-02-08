@@ -1,0 +1,6 @@
+framework module Tealium_Full {
+  umbrella header "Tealium-Full-umbrella.h"
+
+  export *
+  module * { export * }
+}

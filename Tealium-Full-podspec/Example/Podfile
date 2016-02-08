@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+
+target 'Tealium-Full_Tests', :exclusive => true do
+  pod 'Tealium-Full', :path => '../'
+
+  
+end

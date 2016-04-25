@@ -14,12 +14,12 @@ Pod::Spec.new do |s|
     s.name            = "TealiumTVOS"
     s.requires_arc = true
     s.social_media_url  = "https://twitter.com/tealium"
-    s.source            = { :git => "https://github.com/tealium/tealium-tvos.git", :commit => '67489a8bbcb9803f03b2b234b3dbee4bea861207',:tag => "v5.0.0" }
+    s.source            = { :git => "https://github.com/tealium/tealium-tvos.git", :commit => '67489a8bbcb9803f03b2b234b3dbee4bea861207',:tag => "v5.0.3" }
     s.summary           = "Framework for adding Tealium services to a tvOS application."
     s.platform          = :tvos, '8.1'
-    s.public_header_files = 'TealiumTVOS.framework/Headers/*.{h}'
+    #s.public_header_files = 'TealiumTVOS.framework/Headers/*.{h}'
     s.vendored_frameworks = 'TealiumTVOS.framework'
-    s.version           = "5.0.0"
+    s.version           = "5.0.3"
     s.xcconfig          = {'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/Headers/Public/TealiumTVOS/TealiumTVOS'}
 
 end

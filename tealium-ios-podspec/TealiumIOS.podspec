@@ -13,13 +13,13 @@ Pod::Spec.new do |s|
     s.frameworks = 'SystemConfiguration'
     s.license      = { :type => "Commercial", :file => "LICENSE.txt" }
     s.name             = "TealiumIOS"
+    s.version          = "5.0.4"
     s.requires_arc = true
     s.social_media_url   = "https://twitter.com/tealium"
-    s.source           = { :git => "https://github.com/tealium/tealium-ios.git", :commit => '0e45406d9cdb82ebe8e9941371e57419130577dc', :tag => 'v5.0.3' }
+    s.source           = { :git => "https://github.com/tealium/tealium-ios.git", :tag => s.version.to_s }
     s.summary          = "Framework for adding Tealium services to an iOS application."
-    s.platform     = :ios, '8.1'
+    s.platform     = :ios, '8.0'
     #s.public_header_files = 'TealiumIOS.framework/Headers/*.{h}'
     s.vendored_frameworks = 'TealiumIOS.framework'
-    s.version          = "5.0.3"
     s.xcconfig = {'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/Headers/Public/TealiumIOS/TealiumIOS'}
 end

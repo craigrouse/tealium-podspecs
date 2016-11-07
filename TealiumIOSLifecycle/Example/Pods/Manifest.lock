@@ -1,0 +1,14 @@
+PODS:
+  - TealiumIOSLifecycle (0.1.0)
+
+DEPENDENCIES:
+  - TealiumIOSLifecycle (from `../`)
+
+EXTERNAL SOURCES:
+  TealiumIOSLifecycle:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TealiumIOSLifecycle: 4f96581329d6fff012eebeb0d1cadfd926deb79b
+
+COCOAPODS: 0.39.0

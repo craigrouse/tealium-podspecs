@@ -1,45 +1,6 @@
-# TealiumIOS
+License Agreement
 
-[![CI Status](http://img.shields.io/travis/jalakoo/TealiumIOS.svg?style=flat)](https://travis-ci.org/jalakoo/TealiumIOS)
-[![Version](https://img.shields.io/cocoapods/v/TealiumIOS.svg?style=flat)](http://cocoapods.org/pods/TealiumIOS)
-[![License](https://img.shields.io/cocoapods/l/TealiumIOS.svg?style=flat)](http://cocoapods.org/pods/TealiumIOS)
-[![Platform](https://img.shields.io/cocoapods/p/TealiumIOS.svg?style=flat)](http://cocoapods.org/pods/TealiumIOS)
-
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-iOS Target 8.1+
-
-XCode 7.0+
-
-## Installation
-
-TealiumIOS is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "TealiumIOS"
-```
-
-## Implementation
-
-Import using the following header, to access all module methods:
-
-```objective-c
-#import "TealiumIOS.h"
-```
-
-
-## Author
-
-jalakoo, jalakoo@gmail.com
-
-## License
-
-Thank You for Your interest in our Tealium iOS Library (the "Software"), owned and licensed by Tealium Inc. (“Tealium,” "Our," “We,” or “Us”). Please read this license agreement (the "Agreement") carefully, as it contains the terms and conditions that govern Your use of and access to the Software. 
+Thank You for Your interest in our Tealium Library (the "Software"), owned and licensed by Tealium Inc. (“Tealium,” "Our," “We,” or “Us”). Please read this license agreement (the "Agreement") carefully, as it contains the terms and conditions that govern Your use of and access to the Software. 
 
 You may not access the Software if You are Our direct competitor, except with Our prior written consent. In addition, You may not access the Software for purposes of monitoring the availability, performance, or functionality, of any of our products and services or for any other benchmarking or competitive purposes. 
 

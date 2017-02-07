@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TealiumIOSLifecycle_Tests' do
+  pod 'TealiumIOSLifecycle', :path => '../'
+  
+  
+end

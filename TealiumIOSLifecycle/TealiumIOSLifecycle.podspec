@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint TealiumIOS.podspec' to ensure this is a
+# Be sure to run `pod lib lint TealiumIOSLifecycle.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,18 +8,18 @@
 
 Pod::Spec.new do |s|
     s.author           = { "jalakoo" => "jalakoo@gmail.com" }
-    s.homepage         = "https://github.com/tealium/tealium-ios"
+    s.homepage         = "https://github.com/tealium/"
     s.documentation_url = 'http://tealium.github.io/tealium-ios/'
     s.frameworks = 'SystemConfiguration'
     s.license      = { :type => "Commercial", :file => "LICENSE.txt" }
-    s.name             = "TealiumIOS"
+    s.name             = "TealiumIOSLifecycle"
     s.version          = "5.1.2"
     s.requires_arc = true
     s.social_media_url   = "https://twitter.com/tealium"
-    s.source           = { :git => "https://github.com/tealium/tealium-ios.git", :tag => s.version.to_s }
-    s.summary          = "Framework for adding Tealium services to an iOS application."
+    s.source           = { :git => "https://github.com/tealium/tealium-ios.git", :tag => s.version.to_s}
+    s.summary          = "A companion framework to TealiumIOS that adds Lifecycle tracking to an iOS application."
     s.platform     = :ios, '8.0'
     #s.public_header_files = 'TealiumIOS.framework/Headers/*.{h}'
-    s.vendored_frameworks = 'TealiumIOS.framework'
-    s.xcconfig = {'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/Headers/Public/TealiumIOS/TealiumIOS'}
+    s.vendored_frameworks = 'TealiumIOSLifecycle.framework'
+    s.xcconfig = {'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/Headers/Public/TealiumIOS_Lifecycle/'}
 end

@@ -1,9 +1,9 @@
-# TealiumIOS
+# TealiumIOSLifecycle
 
-[![CI Status](http://img.shields.io/travis/jalakoo/TealiumIOS.svg?style=flat)](https://travis-ci.org/jalakoo/TealiumIOS)
-[![Version](https://img.shields.io/cocoapods/v/TealiumIOS.svg?style=flat)](http://cocoapods.org/pods/TealiumIOS)
-[![License](https://img.shields.io/cocoapods/l/TealiumIOS.svg?style=flat)](http://cocoapods.org/pods/TealiumIOS)
-[![Platform](https://img.shields.io/cocoapods/p/TealiumIOS.svg?style=flat)](http://cocoapods.org/pods/TealiumIOS)
+[![CI Status](http://img.shields.io/travis/Merritt Tidwell/TealiumIOSLifecycle.svg?style=flat)](https://travis-ci.org/Merritt Tidwell/TealiumIOSLifecycle)
+[![Version](https://img.shields.io/cocoapods/v/TealiumIOSLifecycle.svg?style=flat)](http://cocoapods.org/pods/TealiumIOSLifecycle)
+[![License](https://img.shields.io/cocoapods/l/TealiumIOSLifecycle.svg?style=flat)](http://cocoapods.org/pods/TealiumIOSLifecycle)
+[![Platform](https://img.shields.io/cocoapods/p/TealiumIOSLifecycle.svg?style=flat)](http://cocoapods.org/pods/TealiumIOSLifecycle)
 
 ## Usage
 
@@ -11,27 +11,27 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-iOS Target 8.1+
+tvOS Target 8.1+
 
 XCode 7.0+
 
+
 ## Installation
 
-TealiumIOS is available through [CocoaPods](http://cocoapods.org). To install
+TealiumTVOS is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "TealiumIOS"
+pod "TealiumLifecycleIOS"
 ```
 
 ## Implementation
 
-Import using the following header, to access all module methods:
+Import using the following header in your bridging-header.h, to access all module methods:
 
 ```objective-c
-#import "TealiumIOS.h"
+#import TealiumIOS
 ```
-
 
 ## Author
 

@@ -1,0 +1,6 @@
+framework module Pods_TealiumTVOS_Example {
+  umbrella header "Pods-TealiumTVOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

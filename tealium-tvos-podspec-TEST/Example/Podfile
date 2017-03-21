@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TealiumTVOS_Example', :exclusive => true do
+  pod 'TealiumTVOS', :path => ‘../../tealium-tvos/’
+end
+
+target 'TealiumTVOS_Tests', :exclusive => true do
+  pod 'TealiumTVOS', :path => ‘../../tealium-tvos’
+
+  
+end

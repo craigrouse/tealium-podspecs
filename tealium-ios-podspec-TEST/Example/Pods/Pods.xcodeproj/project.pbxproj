@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288CE976BC6976BA385F47E4268D0E7E /* Pods-TealiumIOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DCB4F1F0A6C0238CAE5C15C8A21836 /* Pods-TealiumIOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C9EC5667EF22F30CE02EFB0969F72C8 /* Pods-TealiumIOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 007D213E0750D5CE8920555972444C56 /* Pods-TealiumIOS_Tests-dummy.m */; };
+		6647597054C2310914B6326AE466FA1C /* Pods-TealiumIOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D911AEF94E0861AE2770BBB2C75DCD59 /* Pods-TealiumIOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B0D4BD8C4327560D1FE587B5388DEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		78F6DFAD2CF620FAB32EFA4B36B51CA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CB8E39BEF5B893464DC3BED38EBAEC8B /* Pods-TealiumIOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B56EF871D2A6FF8CE224A0663C617A /* Pods-TealiumIOS_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		007D213E0750D5CE8920555972444C56 /* Pods-TealiumIOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TealiumIOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		069B65D89EEAD3EAB4BBB7AD0E92921E /* Pods-TealiumIOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TealiumIOS_Tests.modulemap"; sourceTree = "<group>"; };
+		103C0D569DCE54E192B8DE3CA82ED5C1 /* Pods-TealiumIOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TealiumIOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17B56EF871D2A6FF8CE224A0663C617A /* Pods-TealiumIOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TealiumIOS_Example-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4EBBFEB7C2DA0A44C7510726D8283150 /* Pods_TealiumIOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TealiumIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		565B619EFE504DA2F35120AB0A46A20A /* Pods-TealiumIOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TealiumIOS_Example-resources.sh"; sourceTree = "<group>"; };
+		6B8062B4E28496E5DDD1176F2E3543CB /* Pods-TealiumIOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TealiumIOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		742C5889CB18FF1460E0C154D412F997 /* Pods-TealiumIOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TealiumIOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		868D3B6E143722AC5459F407111CA2A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F405C31F280FB3F1BCA12370FD675E /* Pods-TealiumIOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TealiumIOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		89FA83962CC3961F4A0FADDFAC86EE3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900999E271483D6E2AEE64E2DDE9F01D /* Pods-TealiumIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TealiumIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AEE2C445DBA9BD5E2F6D0FD05632698D /* Pods-TealiumIOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TealiumIOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC85C54E71E9BEFFEDB3E2C8B84700BC /* Pods-TealiumIOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TealiumIOS_Example.modulemap"; sourceTree = "<group>"; };
+		BD2BA36D85ED026ECBCCA34CB30C687C /* Pods-TealiumIOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TealiumIOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE82AB90F94B9E9DB75123AB45D0AD9C /* Pods-TealiumIOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TealiumIOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C0E564B9AF78B99CC8B1E99298A62C18 /* Pods_TealiumIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TealiumIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C745623D16DA2E29E2C77FF13F3E02AB /* Pods-TealiumIOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TealiumIOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D09404DD34E3A553AE5F15A8E3E0DA0B /* Pods-TealiumIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TealiumIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D911AEF94E0861AE2770BBB2C75DCD59 /* Pods-TealiumIOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TealiumIOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EAD1E106B002C3DE1FB4C41017B6B1D4 /* Pods-TealiumIOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TealiumIOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F5DCB4F1F0A6C0238CAE5C15C8A21836 /* Pods-TealiumIOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TealiumIOS_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668B743D14A798B8A19E090136E860C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B0D4BD8C4327560D1FE587B5388DEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DF2F76D0C5B768F722F923DEF61B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F6DFAD2CF620FAB32EFA4B36B51CA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A4B27742C888888831E18DAD73E90F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CD322CC659659834E57B4FD98BAD399 /* TealiumIOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		22A7AD248D3240B56DFA32CCFDCBC3B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86DF93EDBD523E60CD963D08E4AF0AE1 /* Pods-TealiumIOS_Example */,
+				A62BA2F75D41B53B2C900A7463FC7F78 /* Pods-TealiumIOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				17A4B27742C888888831E18DAD73E90F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FC049CC606833CEDC0458D008EE84360 /* Products */,
+				22A7AD248D3240B56DFA32CCFDCBC3B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86DF93EDBD523E60CD963D08E4AF0AE1 /* Pods-TealiumIOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				868D3B6E143722AC5459F407111CA2A9 /* Info.plist */,
+				BC85C54E71E9BEFFEDB3E2C8B84700BC /* Pods-TealiumIOS_Example.modulemap */,
+				103C0D569DCE54E192B8DE3CA82ED5C1 /* Pods-TealiumIOS_Example-acknowledgements.markdown */,
+				6B8062B4E28496E5DDD1176F2E3543CB /* Pods-TealiumIOS_Example-acknowledgements.plist */,
+				17B56EF871D2A6FF8CE224A0663C617A /* Pods-TealiumIOS_Example-dummy.m */,
+				742C5889CB18FF1460E0C154D412F997 /* Pods-TealiumIOS_Example-frameworks.sh */,
+				565B619EFE504DA2F35120AB0A46A20A /* Pods-TealiumIOS_Example-resources.sh */,
+				F5DCB4F1F0A6C0238CAE5C15C8A21836 /* Pods-TealiumIOS_Example-umbrella.h */,
+				EAD1E106B002C3DE1FB4C41017B6B1D4 /* Pods-TealiumIOS_Example.debug.xcconfig */,
+				900999E271483D6E2AEE64E2DDE9F01D /* Pods-TealiumIOS_Example.release.xcconfig */,
+			);
+			name = "Pods-TealiumIOS_Example";
+			path = "Target Support Files/Pods-TealiumIOS_Example";
+			sourceTree = "<group>";
+		};
+		8CD322CC659659834E57B4FD98BAD399 /* TealiumIOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TealiumIOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A62BA2F75D41B53B2C900A7463FC7F78 /* Pods-TealiumIOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				89FA83962CC3961F4A0FADDFAC86EE3C /* Info.plist */,
+				069B65D89EEAD3EAB4BBB7AD0E92921E /* Pods-TealiumIOS_Tests.modulemap */,
+				C745623D16DA2E29E2C77FF13F3E02AB /* Pods-TealiumIOS_Tests-acknowledgements.markdown */,
+				BD2BA36D85ED026ECBCCA34CB30C687C /* Pods-TealiumIOS_Tests-acknowledgements.plist */,
+				007D213E0750D5CE8920555972444C56 /* Pods-TealiumIOS_Tests-dummy.m */,
+				86F405C31F280FB3F1BCA12370FD675E /* Pods-TealiumIOS_Tests-frameworks.sh */,
+				AEE2C445DBA9BD5E2F6D0FD05632698D /* Pods-TealiumIOS_Tests-resources.sh */,
+				D911AEF94E0861AE2770BBB2C75DCD59 /* Pods-TealiumIOS_Tests-umbrella.h */,
+				D09404DD34E3A553AE5F15A8E3E0DA0B /* Pods-TealiumIOS_Tests.debug.xcconfig */,
+				BE82AB90F94B9E9DB75123AB45D0AD9C /* Pods-TealiumIOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-TealiumIOS_Tests";
+			path = "Target Support Files/Pods-TealiumIOS_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FC049CC606833CEDC0458D008EE84360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0E564B9AF78B99CC8B1E99298A62C18 /* Pods_TealiumIOS_Example.framework */,
+				4EBBFEB7C2DA0A44C7510726D8283150 /* Pods_TealiumIOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0554E7A63AE667A89466C4383B7734F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288CE976BC6976BA385F47E4268D0E7E /* Pods-TealiumIOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF220F7E8A419162A6745CB560819902 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6647597054C2310914B6326AE466FA1C /* Pods-TealiumIOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		296CD6EDBFAE10604212FD96F011FA53 /* Pods-TealiumIOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B80951F76169D36A013156F37A9BDE /* Build configuration list for PBXNativeTarget "Pods-TealiumIOS_Tests" */;
+			buildPhases = (
+				78A514900A81B37B894E6933EBFA880E /* Sources */,
+				668B743D14A798B8A19E090136E860C3 /* Frameworks */,
+				DF220F7E8A419162A6745CB560819902 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TealiumIOS_Tests";
+			productName = "Pods-TealiumIOS_Tests";
+			productReference = 4EBBFEB7C2DA0A44C7510726D8283150 /* Pods_TealiumIOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E483488007FCC6C18D88AD20D839469 /* Pods-TealiumIOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53A6319D18E0467A29E29ABA36048D08 /* Build configuration list for PBXNativeTarget "Pods-TealiumIOS_Example" */;
+			buildPhases = (
+				76E9A905FFBF18ACFF18CBA35EEC765D /* Sources */,
+				C1DF2F76D0C5B768F722F923DEF61B7B /* Frameworks */,
+				0554E7A63AE667A89466C4383B7734F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TealiumIOS_Example";
+			productName = "Pods-TealiumIOS_Example";
+			productReference = C0E564B9AF78B99CC8B1E99298A62C18 /* Pods_TealiumIOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FC049CC606833CEDC0458D008EE84360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E483488007FCC6C18D88AD20D839469 /* Pods-TealiumIOS_Example */,
+				296CD6EDBFAE10604212FD96F011FA53 /* Pods-TealiumIOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E9A905FFBF18ACFF18CBA35EEC765D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8E39BEF5B893464DC3BED38EBAEC8B /* Pods-TealiumIOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A514900A81B37B894E6933EBFA880E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9EC5667EF22F30CE02EFB0969F72C8 /* Pods-TealiumIOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27751670BA116ABDF0498F43E9148E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE82AB90F94B9E9DB75123AB45D0AD9C /* Pods-TealiumIOS_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TealiumIOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TealiumIOS_Tests/Pods-TealiumIOS_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TealiumIOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		872952F2AD2513014D3034B000D40438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09404DD34E3A553AE5F15A8E3E0DA0B /* Pods-TealiumIOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TealiumIOS_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TealiumIOS_Tests/Pods-TealiumIOS_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TealiumIOS_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EB645C612834738B99727720210C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D09604AD1FB801A82741D463705C5CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD1E106B002C3DE1FB4C41017B6B1D4 /* Pods-TealiumIOS_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TealiumIOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TealiumIOS_Example/Pods-TealiumIOS_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TealiumIOS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFEFD203265CFFB032A62B8E3989DFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900999E271483D6E2AEE64E2DDE9F01D /* Pods-TealiumIOS_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TealiumIOS_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TealiumIOS_Example/Pods-TealiumIOS_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TealiumIOS_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E39CD1E764776175CB82EEC82A6C9948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21B80951F76169D36A013156F37A9BDE /* Build configuration list for PBXNativeTarget "Pods-TealiumIOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872952F2AD2513014D3034B000D40438 /* Debug */,
+				27751670BA116ABDF0498F43E9148E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB645C612834738B99727720210C23E /* Debug */,
+				E39CD1E764776175CB82EEC82A6C9948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53A6319D18E0467A29E29ABA36048D08 /* Build configuration list for PBXNativeTarget "Pods-TealiumIOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09604AD1FB801A82741D463705C5CFD /* Debug */,
+				DFEFD203265CFFB032A62B8E3989DFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

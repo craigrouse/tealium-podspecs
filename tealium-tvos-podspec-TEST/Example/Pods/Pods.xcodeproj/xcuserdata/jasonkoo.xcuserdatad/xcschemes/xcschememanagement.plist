@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-TealiumTVOS_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TealiumTVOS_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TealiumTVOS-TealiumTVOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TealiumTVOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1A4DBF1AF940B81F9877D88AE3EF57F7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7D6B68B2C26FBE201F4DA35FE4AC02C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D8B29C52EA88995DEBCEB3D87E6DC0CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE7E23EEC5C4AA93E415F55450019546</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

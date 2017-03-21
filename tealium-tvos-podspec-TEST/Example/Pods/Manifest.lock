@@ -1,0 +1,14 @@
+PODS:
+  - TealiumTVOS (0.1.0)
+
+DEPENDENCIES:
+  - TealiumTVOS (from `../`)
+
+EXTERNAL SOURCES:
+  TealiumTVOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TealiumTVOS: 9499c31e3c08e5185b27cbff92fabebd7d994040
+
+COCOAPODS: 0.39.0

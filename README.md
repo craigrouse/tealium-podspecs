@@ -2,9 +2,18 @@
 
 Tealium podspecs for Cocoapods support
 
-## Updating Podspecs to Cocoapods
+## Adding owner to be able to push
 
-Goto specific folder with target podspec to update, then:
+$ pod trunk add-owner ARAnalytics kyle@cocoapods.org
+
+## Updating Podspecs to Cocoapods
+Run the update script:
+
+$ ./updateAll.sh
+
+OR 
+
+Goto each specific folder with target podspec to update, then:
 $ pod trunk push SPEC_NAME.podspec
 
 REF: https://guides.cocoapods.org/making/getting-setup-with-trunk.html

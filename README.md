@@ -3,8 +3,13 @@
 Tealium podspecs for Cocoapods support
 
 ## Adding owner to be able to push
+* New owner system:
+$ pod trunk register dev@tealium.com 'Mobile Dev' --description='macbook air'
 
-$ pod trunk add-owner ARAnalytics kyle@cocoapods.org
+* Own an existing owners system:
+$ pod trunk add-owner TealiumiOS dev@tealium.com
+$ pod trunk add-owner TealiumTVOS dev@tealium.com
+
 
 ## Updating Podspecs to Cocoapods
 Run the update script:
